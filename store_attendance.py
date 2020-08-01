@@ -27,8 +27,8 @@ for i in range(population):
         else:
             SS_ID.append(ID)
             break
+    att = []
     for j in range(1, 5):
-        att = []
         while True:
             result = input('does %s absent at day %d?(y/n)' % (student[i], j))
             if result == 'y':
