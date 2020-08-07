@@ -7,4 +7,6 @@ def product_array(array):
     return new_array
 
 
-print(product_array([1, 2, 3, 4, 5]))
+print(product_array([1, 2, 3, 4, 5]))  # result: [120, 60, 40, 30, 20]
+print(product_array([1, 2, 3]))  # result: [6, 3, 2]
+print(product_array([1, 1, 2, 3, 5, 8, 13]))   # result: [3120, 3120, 1560, 1040, 624, 390, 240]
