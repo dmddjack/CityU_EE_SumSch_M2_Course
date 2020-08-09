@@ -1,4 +1,5 @@
 # Coder: Jack Fong
+# Date: 9 August 2020
 def lowest_n_that_not_exist(array):
     for pos_integer in range(len(array)):
         if pos_integer + 1 not in array:
